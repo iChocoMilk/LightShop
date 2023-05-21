@@ -1,0 +1,29 @@
+# To add support to hex colors check the page:
+# https://github.com/Iridium-Development/IridiumColorAPI
+# Example of gradient: "<GRADIENT:2C08BA> Succefully buy </GRADIENT:028A97>"
+# Remember: You can use HEX in messages.yml or in inventories (config.yml)
+
+# You can send the message in action bar with the format:
+# "A:MESSAGE"
+# Example: CANT_BUY: "A:&c This item can't be bought"
+# Actionbar message isn't avaible in legacy versions. Only 1.10+
+
+# Set in null or remove the line for don't send the message
+
+# You can set multiline message, example:
+# SUCCESSFULLY_BUY: |-
+#    &8&m+-----------------+
+#    &aSuccefully Buy
+#    &7Please come back
+#    &8&m+-----------------+
+# You can't set multiline message with actionbar
+
+SUCCESSFULLY_BUY: "&a Successfully buy"
+SUCCESSFULLY_SELL: "&c Successfully sell"
+
+NOT_ENOUGH_SPACE: "&4&lERROR: &c You don't have enough space in your inventory"
+NOT_ENOUGH_MONEY: "&4&lERROR: &c You don't have enough money to buy"
+NOT_ENOUGH_ITEMS: "&4&lERROR: &c You don't have enough items to sell"
+
+CANT_BUY: "&4&lERROR: &c This item can't be bought"
+CANT_SELL: "&4&lERROR: &c This item can't be sold"

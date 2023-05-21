@@ -1,0 +1,13 @@
+name: LightShop
+main: io.github.ichocomilk.lightshop.LightShopPlugin
+description: A basic shopgui plugin
+version: 1.0.0
+api-version: 1.13
+dependency: [ Vault ]
+
+commands:
+  shop:
+    description: "Open the shop inventory"
+  ashop:
+    description: "Get help from plugin"
+    permission: "lightshop.admin"
